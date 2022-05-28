@@ -1,0 +1,7 @@
+.sidenav{
+    background-image: linear-gradient(to bottom,rgb(139, 53, 238), rgb(170, 197, 255));
+}
+
+.sidenav a i{
+    margin-right: 5px;
+}
