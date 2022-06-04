@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+
+      "name": "Caneta BIC Preta",
+      "price": 3,
+      "id": 1
+    },
+    {
+
+      "name": "Caderno",
+      "price": 15.9,
+      "id": 2
+    },
+    {
+
+      "name": "Calculadora",
+      "price": 2.99,
+      "id": 3
+    },
+    {
+      "name": " Borracha",
+      "price": "0.50",
+      "id": 4
+    },
+    {
+      "name": "Apontador",
+      "price": " 5.50",
+      "id": 5
+    }
+  ]
+}
