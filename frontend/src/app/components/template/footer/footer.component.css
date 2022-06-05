@@ -1,21 +1,12 @@
-.footer{
-    max-height: 35px;
-    position: fixed;
+.footer {
+    position: sticky;
     bottom: 0;
-
+    height: 35px;
     display: flex;
     justify-content: flex-end;
-
-    background-color: rgb(170, 197, 255);
 }
 
-.footer > span {
-    font-size: 1.1em;
+.footer span {
     font-weight: 300;
-    color: black;
-}
-
-.footer i{
-    margin-left: 5px;
-    margin-right: 5px;
+    font-size: 1.0rem;
 }
