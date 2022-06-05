@@ -18,6 +18,7 @@ import { NavComponent } from './components/template/nav/nav.component';
 import { HomeComponent } from './components/views/home/home.component';
 import { DashboardComponent } from './components/views/dashboard/dashboard.component';
 import { FooterComponent } from './components/template/footer/footer.component';
+import {MatButtonModule} from "@angular/material/button";
 
 
 @NgModule({
@@ -29,19 +30,20 @@ import { FooterComponent } from './components/template/footer/footer.component';
     HomeComponent,
     DashboardComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
 
-    // * Material Imports
-    MatToolbarModule,
-    MatSidenavModule,
-    MatListModule,
-    MatMenuModule,
-    MatIconModule,
-    MatDividerModule
-  ],
+        // * Material Imports
+        MatToolbarModule,
+        MatSidenavModule,
+        MatListModule,
+        MatMenuModule,
+        MatIconModule,
+        MatDividerModule,
+        MatButtonModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
