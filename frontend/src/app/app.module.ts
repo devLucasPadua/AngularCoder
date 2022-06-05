@@ -11,13 +11,17 @@ import { NavComponent } from './components/template/nav/nav.component';
 
 import { MatSidenavModule } from'@angular/material/sidenav';
 import { MatListModule } from'@angular/material/list';
+import { HomeComponent } from './components/views/home/home.component';
+import { DashboardComponent } from './components/views/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    NavComponent
+    NavComponent,
+    HomeComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

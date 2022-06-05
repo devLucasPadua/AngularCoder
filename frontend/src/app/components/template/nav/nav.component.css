@@ -1,7 +1,22 @@
 .sidenav{
-    background-image: linear-gradient(to bottom,rgb(139, 53, 238), rgb(170, 197, 255));
+    background-color: #3F51B5;
+    width: 200px;
 }
 
-.sidenav a i{
-    margin-right: 5px;
+.sidenav .logo {
+    max-height: 115px;
+}
+
+
+.sidenav a {
+    color: #FFF;
+}
+
+.sidenav i {
+    padding-right: 10px;
+}
+
+.content {
+    padding: 16px;
+    background-color: #FFF;
 }
