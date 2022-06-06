@@ -12,6 +12,8 @@ import { MatMenuModule} from "@angular/material/menu";
 import { MatIconModule} from "@angular/material/icon";
 import { MatDividerModule} from "@angular/material/divider";
 import { MatListModule } from'@angular/material/list';
+import { MatButtonModule } from "@angular/material/button";
+import { MatCardModule } from "@angular/material/card";
 
 // * Components Imports
 import { HeaderComponent } from './components/template/header/header.component';
@@ -19,7 +21,9 @@ import { NavComponent } from './components/template/nav/nav.component';
 import { HomeComponent } from './components/views/home/home.component';
 import { DashboardComponent } from './components/views/dashboard/dashboard.component';
 import { FooterComponent } from './components/template/footer/footer.component';
-import {MatButtonModule} from "@angular/material/button";
+import { ColaboradoresComponent } from './components/views/colaboradores/colaboradores.component';
+import { FerramentasComponent } from './components/views/ferramentas/ferramentas.component';
+import { EmprestimosComponent } from './components/views/emprestimos/emprestimos.component';
 
 
 @NgModule({
@@ -30,7 +34,10 @@ import {MatButtonModule} from "@angular/material/button";
     FooterComponent,
     NavComponent,
     HomeComponent,
-    DashboardComponent
+    DashboardComponent,
+    ColaboradoresComponent,
+    FerramentasComponent,
+    EmprestimosComponent
   ],
     imports: [
         BrowserModule,
@@ -44,7 +51,8 @@ import {MatButtonModule} from "@angular/material/button";
         MatMenuModule,
         MatIconModule,
         MatDividerModule,
-        MatButtonModule
+        MatButtonModule,
+        MatCardModule
     ],
   providers: [],
   bootstrap: [AppComponent]
