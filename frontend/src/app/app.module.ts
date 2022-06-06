@@ -13,6 +13,7 @@ import { MatIconModule} from "@angular/material/icon";
 import { MatDividerModule} from "@angular/material/divider";
 import { MatListModule } from'@angular/material/list';
 
+// * Components Imports
 import { HeaderComponent } from './components/template/header/header.component';
 import { NavComponent } from './components/template/nav/nav.component';
 import { HomeComponent } from './components/views/home/home.component';
@@ -23,6 +24,7 @@ import {MatButtonModule} from "@angular/material/button";
 
 @NgModule({
   declarations: [
+    // * Components Imports
     AppComponent,
     HeaderComponent,
     FooterComponent,
