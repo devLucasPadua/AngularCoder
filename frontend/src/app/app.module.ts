@@ -24,6 +24,9 @@ import { FooterComponent } from './components/template/footer/footer.component';
 import { ColaboradoresComponent } from './components/views/colaboradores/colaboradores.component';
 import { FerramentasComponent } from './components/views/ferramentas/ferramentas.component';
 import { EmprestimosComponent } from './components/views/emprestimos/emprestimos.component';
+import { DashboardCrudComponent } from './components/views/dashboard/dashboard-crud/dashboard-crud.component';
+import { RedDirective } from './directives/red.directive';
+import { ForDirective } from './directives/for.directive';
 
 
 @NgModule({
@@ -37,7 +40,10 @@ import { EmprestimosComponent } from './components/views/emprestimos/emprestimos
     DashboardComponent,
     ColaboradoresComponent,
     FerramentasComponent,
-    EmprestimosComponent
+    EmprestimosComponent,
+    DashboardCrudComponent,
+    RedDirective,
+    ForDirective
   ],
     imports: [
         BrowserModule,
