@@ -1,0 +1,9 @@
+@import "../home/home.component";
+.page{
+  &_content{
+    &-data{
+      margin-top: 1.7rem;
+      margin-left: 1.3rem;
+    }
+  }
+}

@@ -4,14 +4,18 @@ import {HomeComponent} from "./components/views/home/home.component";
 import {EmprestimosComponent} from "./components/views/emprestimos/emprestimos.component";
 import {FerramentasComponent} from "./components/views/ferramentas/ferramentas.component";
 import {ColaboradoresComponent} from "./components/views/colaboradores/colaboradores.component";
-import {DashboardCrudComponent} from "./components/views/dashboard/dashboard-crud/dashboard-crud.component";
+import {DashboardComponent} from "./components/views/dashboard/dashboard.component";
+import {
+  DashboardCreateComponent
+} from "./components/views/dashboard/dashboard-crud/dashboard-create/dashboard-create.component";
 
 const routes: Routes = [
   { path: '', redirectTo:'home', pathMatch:'full'},
   { path: 'home', component: HomeComponent},
-  { path: 'dashboard', component: DashboardCrudComponent},
+  { path: 'dashboard', component: DashboardComponent},
   { path: 'colaboradores', component: ColaboradoresComponent},
   { path: 'ferramentas', component: FerramentasComponent},
+  { path: 'dashboardCreate', component: DashboardCreateComponent},
   { path: 'emprestimos', component: EmprestimosComponent}
 
 ];
