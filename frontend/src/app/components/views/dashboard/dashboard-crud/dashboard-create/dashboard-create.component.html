@@ -1,1 +1,28 @@
-<p>dashboard-create works!</p>
+<div class="container-fluid page">
+    <div class="page_box p-3 mt-2">Dashboard</div>
+    <div class="page_content shadow p-3 position-relative">
+        <div class="page_content-data position-relative">
+            <div class="card">
+                <mat-card>
+                    <mat-card-title>Novo Dashboard</mat-card-title>
+                    <form>
+                        <mat-form-field>
+                            <input matInput type="text">
+                            <mat-placeholder class="placeholder">Nome</mat-placeholder>
+                        </mat-form-field>
+                        <mat-form-field>
+                            <input matInput type="number">
+                            <mat-placeholder class="placeholder">Preço (R$)</mat-placeholder>
+                        </mat-form-field>
+
+                    </form>
+                        <button mat-raised-button (click)="createDashboard()" color="primary">Salvar!</button>
+                        <button mat-raised-button (click)="cancelDashboard()">Cancelar!</button>
+
+                </mat-card>
+            </div>
+
+
+        </div>
+    </div>
+</div>

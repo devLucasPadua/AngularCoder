@@ -1,0 +1,35 @@
+@import "../../../home/home.component.scss";
+
+
+.card{
+  position: absolute;
+  width: 20em;
+
+  form{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+  mat-card{
+    color: gray;
+    background-color: lavender;
+
+  }
+  mat-placeholder{
+    color: gray;
+    font-size: 0.6em;
+  }
+  button{
+    margin-right: 10px;
+  }
+
+}
+
+
+
+
+
+
+
+
+

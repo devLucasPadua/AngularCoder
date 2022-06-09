@@ -13,9 +13,9 @@ const routes: Routes = [
   { path: '', redirectTo:'home', pathMatch:'full'},
   { path: 'home', component: HomeComponent},
   { path: 'dashboard', component: DashboardComponent},
+  { path: 'dashboardCreate', component: DashboardCreateComponent},
   { path: 'colaboradores', component: ColaboradoresComponent},
   { path: 'ferramentas', component: FerramentasComponent},
-  { path: 'dashboardCreate', component: DashboardCreateComponent},
   { path: 'emprestimos', component: EmprestimosComponent}
 
 ];
