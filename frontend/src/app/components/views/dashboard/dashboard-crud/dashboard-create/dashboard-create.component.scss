@@ -1,9 +1,9 @@
-@import "../../../home/home.component.scss";
-
+@import "../../dashboard.component.scss";
 
 .card{
   position: absolute;
   width: 20em;
+  font-size: 0.8em;
 
   form{
     display: flex;
@@ -11,8 +11,10 @@
     padding-bottom: 10px;
   }
   mat-card{
+    display: flex;
+    flex-direction: column;
     color: gray;
-    background-color: lavender;
+    background-color: rgb(230, 230, 230);
 
   }
   mat-placeholder{
@@ -23,6 +25,14 @@
     margin-right: 10px;
   }
 
+}
+.card .button-container{
+  width: 18em;
+  height: 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 
