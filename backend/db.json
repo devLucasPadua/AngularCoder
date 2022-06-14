@@ -50,5 +50,23 @@
       "price": 657.34,
       "id": 10
     }
+  ],
+
+  "colaborador": [
+    {
+      "cpf": "teste_1",
+      "matricula": "teste_1",
+      "nome": "teste_1",
+      "sobrenome": "teste_1",
+      "email": "teste_1",
+      "telefone": "teste_1",
+      "cargo": "teste_1",
+      "empresa": "teste_1",
+      "supervisor": "teste_1",
+      "perfil": "teste_1",
+      "permissao": "teste_1",
+      "id": 1
+    }
   ]
+
 }

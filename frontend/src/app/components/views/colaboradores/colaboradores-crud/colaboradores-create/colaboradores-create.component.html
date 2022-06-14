@@ -1,1 +1,72 @@
-<p>colaboradores-create works!</p>
+<div class="container-fluid page">
+    <div class="page_box p-3 mt-2">Dashboard</div>
+    <div class="page_content shadow p-3 position-relative">
+        <div class="page_content-data position-relative">
+            <div class="card">
+                <mat-card>
+                    <mat-card-title>Novo Colaborador</mat-card-title>
+                    <form>
+                        <mat-form-field>
+                            <input matInput type="number" [(ngModel)]="" name="cpf" required>
+                            <mat-placeholder class="placeholder">CPF</mat-placeholder>
+                        </mat-form-field>
+
+                        <mat-form-field>
+                            <input matInput type="number" [(ngModel)]="" name="matricula" required>
+                            <mat-placeholder class="placeholder">Matrícula</mat-placeholder>
+                        </mat-form-field>
+
+                        <mat-form-field>
+                            <input matInput type="text" [(ngModel)]="" name="nome" required>
+                            <mat-placeholder class="placeholder">Nome</mat-placeholder>
+                        </mat-form-field>
+
+                        <mat-form-field>
+                            <input matInput type="text" [(ngModel)]="" name="sobrenome" required>
+                            <mat-placeholder class="placeholder">Sobrenome</mat-placeholder>
+                        </mat-form-field>
+
+                        <mat-form-field>
+                            <input matInput type="email" [(ngModel)]="" name="email" required>
+                            <mat-placeholder class="placeholder">E-mail</mat-placeholder>
+                        </mat-form-field>
+
+                        <mat-form-field>
+                            <input matInput type="tel" [(ngModel)]="" name="telefone" required>
+                            <mat-placeholder class="placeholder">Telefone</mat-placeholder>
+                        </mat-form-field>
+
+                        <mat-form-field>
+                            <input matInput type="text" [(ngModel)]="" name="Cargo" required>
+                            <mat-placeholder class="placeholder">Cargo</mat-placeholder>
+                        </mat-form-field>
+
+                        <mat-form-field>
+                            <input matInput type="text" [(ngModel)]="" name="empresa" required>
+                            <mat-placeholder class="placeholder">Empresa</mat-placeholder>
+                        </mat-form-field>
+
+                        <mat-form-field>
+                            <input matInput type="text" [(ngModel)]="" name="supervisor" required>
+                            <mat-placeholder class="placeholder">Supervisor</mat-placeholder>
+                        </mat-form-field>
+
+                        <mat-form-field>
+                            <input matInput type="text" [(ngModel)]="" name="perfil" required>
+                            <mat-placeholder class="placeholder">Perfil</mat-placeholder>
+                        </mat-form-field>
+
+                        <mat-form-field>
+                            <input matInput type="text" [(ngModel)]="" name="permissao" required>
+                            <mat-placeholder class="placeholder">Permissão</mat-placeholder>
+                        </mat-form-field>
+                    </form>
+                    <div class="button-container">
+                        <button mat-raised-button (click)="createDashboard()" color="primary">Salvar!</button>
+                        <button mat-raised-button (click)="cancelDashboard()" color="accent">Cancelar!</button>
+                    </div>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+</div>
