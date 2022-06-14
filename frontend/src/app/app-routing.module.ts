@@ -8,6 +8,9 @@ import {DashboardComponent} from "./components/views/dashboard/dashboard.compone
 import {
   DashboardCreateComponent
 } from "./components/views/dashboard/dashboard-crud/dashboard-create/dashboard-create.component";
+import {
+  ColaboradoresCreateComponent
+} from "./components/views/colaboradores/colaboradores-crud/colaboradores-create/colaboradores-create.component";
 
 const routes: Routes = [
   { path: '', redirectTo:'home', pathMatch:'full'},
@@ -15,6 +18,7 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent},
   { path: 'dashboardCreate', component: DashboardCreateComponent},
   { path: 'colaboradores', component: ColaboradoresComponent},
+  { path: 'colaboradoresCreate', component: ColaboradoresCreateComponent},
   { path: 'ferramentas', component: FerramentasComponent},
   { path: 'emprestimos', component: EmprestimosComponent}
 

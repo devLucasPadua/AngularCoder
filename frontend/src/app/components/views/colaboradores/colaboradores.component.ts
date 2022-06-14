@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-colaboradores',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ColaboradoresComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  navigateToColaboradoresCreate(): void{
+    this.router.navigate(['/colaboradoresCreate'])
   }
 
 }
