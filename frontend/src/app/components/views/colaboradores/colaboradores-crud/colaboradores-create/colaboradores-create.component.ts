@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Colaborador} from "../colaboraores.module";
+import {ColaboradoresService} from "../colaboradores.service";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-colaboradores-create',
@@ -22,9 +24,20 @@ export class ColaboradoresCreateComponent implements OnInit {
     permissao: ""
   }
 
-  constructor() { }
+  constructor(private colaboradorService: ColaboradoresService,
+              private router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  createColaborador(): void{
+    this.colaboradorService.create(this.colaborador).subscribe(() => {
+      this.colaboradorService.showMessage('Colaborador cadastrado com sucesso!')})
+    this.router.navigate(['/colaboradores']);
+  }
+
+  cancelColaborador(): void{
+    this.router.navigate(['/colaboradores']);
   }
 
 }

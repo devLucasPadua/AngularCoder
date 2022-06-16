@@ -1,9 +1,11 @@
+
 .footer {
     bottom: 0;
-    position: sticky;
+    position: relative;
     height: 32px;
     display: flex;
     justify-content: flex-end;
+
 }
 
 .footer span {

@@ -51,7 +51,6 @@
       "id": 10
     }
   ],
-
   "colaborador": [
     {
       "cpf": "teste_1",
@@ -66,7 +65,20 @@
       "perfil": "teste_1",
       "permissao": "teste_1",
       "id": 1
+    },
+    {
+      "cpf": 1234,
+      "matricula": 1234,
+      "nome": "teste",
+      "sobrenome": "teste",
+      "email": "teste@teste.com",
+      "telefone": "1234",
+      "cargo": "teste",
+      "empresa": "teste",
+      "supervisor": "teste",
+      "perfil": "teste",
+      "permissao": "teste",
+      "id": 2
     }
   ]
-
 }

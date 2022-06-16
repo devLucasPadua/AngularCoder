@@ -15,8 +15,8 @@ export class DashboardService {
                 private http: HttpClient) {
     }
 
-    showOnConsole(msg: string): void {
-        console.log(msg)
+    create(dashboard: Dashboard): Observable<Dashboard> {
+        return this.http.post<Dashboard>(this.baseURL, dashboard)
     }
 
     showMessage(msg: string): void {
@@ -26,9 +26,5 @@ export class DashboardService {
                 horizontalPosition: "right",
                 verticalPosition: "top"
             })
-    }
-
-    create(dashboard: Dashboard): Observable<Dashboard> {
-        return this.http.post<Dashboard>(this.baseURL, dashboard)
     }
 }

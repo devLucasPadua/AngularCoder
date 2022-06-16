@@ -7,63 +7,63 @@
                     <mat-card-title>Novo Colaborador</mat-card-title>
                     <form>
                         <mat-form-field>
-                            <input matInput type="number" [(ngModel)]="" name="cpf" required>
+                            <input matInput type="number" [(ngModel)]="colaborador.cpf" name="cpf" required>
                             <mat-placeholder class="placeholder">CPF</mat-placeholder>
                         </mat-form-field>
 
                         <mat-form-field>
-                            <input matInput type="number" [(ngModel)]="" name="matricula" required>
+                            <input matInput type="number" [(ngModel)]="colaborador.matricula" name="matricula" required>
                             <mat-placeholder class="placeholder">Matrícula</mat-placeholder>
                         </mat-form-field>
 
                         <mat-form-field>
-                            <input matInput type="text" [(ngModel)]="" name="nome" required>
+                            <input matInput type="text" [(ngModel)]="colaborador.nome" name="nome" required>
                             <mat-placeholder class="placeholder">Nome</mat-placeholder>
                         </mat-form-field>
 
                         <mat-form-field>
-                            <input matInput type="text" [(ngModel)]="" name="sobrenome" required>
+                            <input matInput type="text" [(ngModel)]="colaborador.sobrenome" name="sobrenome" required>
                             <mat-placeholder class="placeholder">Sobrenome</mat-placeholder>
                         </mat-form-field>
 
                         <mat-form-field>
-                            <input matInput type="email" [(ngModel)]="" name="email" required>
+                            <input matInput type="email" [(ngModel)]="colaborador.email" name="email" required>
                             <mat-placeholder class="placeholder">E-mail</mat-placeholder>
                         </mat-form-field>
 
                         <mat-form-field>
-                            <input matInput type="tel" [(ngModel)]="" name="telefone" required>
+                            <input matInput type="tel" [(ngModel)]="colaborador.telefone" name="telefone" required>
                             <mat-placeholder class="placeholder">Telefone</mat-placeholder>
                         </mat-form-field>
 
                         <mat-form-field>
-                            <input matInput type="text" [(ngModel)]="" name="Cargo" required>
+                            <input matInput type="text" [(ngModel)]="colaborador.cargo" name="Cargo" required>
                             <mat-placeholder class="placeholder">Cargo</mat-placeholder>
                         </mat-form-field>
 
                         <mat-form-field>
-                            <input matInput type="text" [(ngModel)]="" name="empresa" required>
+                            <input matInput type="text" [(ngModel)]="colaborador.empresa" name="empresa" required>
                             <mat-placeholder class="placeholder">Empresa</mat-placeholder>
                         </mat-form-field>
 
                         <mat-form-field>
-                            <input matInput type="text" [(ngModel)]="" name="supervisor" required>
+                            <input matInput type="text" [(ngModel)]="colaborador.supervisor" name="supervisor" required>
                             <mat-placeholder class="placeholder">Supervisor</mat-placeholder>
                         </mat-form-field>
 
                         <mat-form-field>
-                            <input matInput type="text" [(ngModel)]="" name="perfil" required>
+                            <input matInput type="text" [(ngModel)]="colaborador.perfil" name="perfil" required>
                             <mat-placeholder class="placeholder">Perfil</mat-placeholder>
                         </mat-form-field>
 
                         <mat-form-field>
-                            <input matInput type="text" [(ngModel)]="" name="permissao" required>
+                            <input matInput type="text" [(ngModel)]="colaborador.permissao" name="permissao" required>
                             <mat-placeholder class="placeholder">Permissão</mat-placeholder>
                         </mat-form-field>
                     </form>
                     <div class="button-container">
-                        <button mat-raised-button (click)="createDashboard()" color="primary">Salvar!</button>
-                        <button mat-raised-button (click)="cancelDashboard()" color="accent">Cancelar!</button>
+                        <button mat-raised-button (click)="createColaborador()" color="primary">Salvar!</button>
+                        <button mat-raised-button (click)="cancelColaborador()" color="accent">Cancelar!</button>
                     </div>
                 </mat-card>
             </div>
