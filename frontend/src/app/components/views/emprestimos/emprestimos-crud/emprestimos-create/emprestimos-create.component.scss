@@ -1,38 +1,38 @@
-@import "../../colaboradores.component.scss";
+@import "../../emprestimos.component.scss";
 .page_content {
-    min-height: calc(154vh - 174px);
+  min-height: calc(154vh - 174px);
 
 }
 .card{
-    position: absolute;
-    width: 20em;
-    font-size: 0.8em;
+  position: absolute;
+  width: 20em;
+  font-size: 0.8em;
 
-form{
+  form{
     display: flex;
     flex-direction: column;
     padding-bottom: 10px;
-}
-mat-card{
+  }
+  mat-card{
     display: flex;
     flex-direction: column;
     color: gray;
     background-color: rgb(230, 230, 230);
 
-}
-mat-placeholder{
+  }
+  mat-placeholder{
     color: gray;
     font-size: 0.6em;
-}
-button{
+  }
+  button{
     margin-right: 10px;
-}
-.card .button-container{
+  }
+  .card .button-container{
     width: 18em;
     height: 2em;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-}
+  }
 }

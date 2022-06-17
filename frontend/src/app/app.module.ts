@@ -35,6 +35,7 @@ import {FormsModule} from "@angular/forms";
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from "@angular/material/input";
 import { ColaboradoresCreateComponent } from './components/views/colaboradores/colaboradores-crud/colaboradores-create/colaboradores-create.component';
+import { EmprestimosCreateComponent } from './components/views/emprestimos/emprestimos-crud/emprestimos-create/emprestimos-create.component';
 
 
 
@@ -53,7 +54,8 @@ import { ColaboradoresCreateComponent } from './components/views/colaboradores/c
     RedDirective,
     ForDirective,
     DashboardCreateComponent,
-    ColaboradoresCreateComponent
+    ColaboradoresCreateComponent,
+    EmprestimosCreateComponent
   ],
     imports: [
         BrowserModule,

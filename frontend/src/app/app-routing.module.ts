@@ -11,6 +11,9 @@ import {
 import {
   ColaboradoresCreateComponent
 } from "./components/views/colaboradores/colaboradores-crud/colaboradores-create/colaboradores-create.component";
+import {
+  EmprestimosCreateComponent
+} from "./components/views/emprestimos/emprestimos-crud/emprestimos-create/emprestimos-create.component";
 
 const routes: Routes = [
   { path: '', redirectTo:'home', pathMatch:'full'},
@@ -20,7 +23,8 @@ const routes: Routes = [
   { path: 'colaboradores', component: ColaboradoresComponent},
   { path: 'colaboradoresCreate', component: ColaboradoresCreateComponent},
   { path: 'ferramentas', component: FerramentasComponent},
-  { path: 'emprestimos', component: EmprestimosComponent}
+  { path: 'emprestimos', component: EmprestimosComponent},
+  { path: 'emprestimosCreate', component: EmprestimosCreateComponent}
 
 ];
 

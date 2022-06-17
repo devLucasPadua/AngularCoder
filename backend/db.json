@@ -80,5 +80,16 @@
       "permissao": "teste",
       "id": 2
     }
+  ],
+  "emprestimo": [
+    {
+      "ferramentaID": 3245,
+      "colaboradorID": 235,
+      "quantidade": 0,
+      "prazoEmDias": 56,
+      "observacao": "sdfg",
+      "senhaColaborador": "9516",
+      "id": 1
+    }
   ]
 }
